@@ -1,0 +1,6 @@
+ToolChainManager/order/0.id=gcc-x86_64-D\:/msys64/ucrt64/bin/gcc.exe
+ToolChainManager/order/0.type=org.eclipse.cdt.build.gcc
+ToolChainManager/order/1.id=gcc-x86_64-D\:/msys64/ucrt64/bin/x86_64-w64-mingw32-gcc.exe
+ToolChainManager/order/1.type=org.eclipse.cdt.build.gcc
+ToolChainManager/order/n=2
+eclipse.preferences.version=1

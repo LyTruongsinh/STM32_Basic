@@ -1,0 +1,4 @@
+../MyLibs/Servo.c:11:10:map	1
+../MyLibs/Servo.c:15:9:servo_read	1
+../MyLibs/Servo.c:19:6:servo_write	5
+../MyLibs/Servo.c:39:6:servo_init	1

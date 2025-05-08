@@ -1,0 +1,10 @@
+15:06:07 **** Incremental Build of configuration Debug for project ISR_Demo ****
+make -j12 all 
+arm-none-eabi-size  ISR_Demo.elf 
+   text	   data	    bss	    dec	    hex	filename
+   4724	     12	   1572	   6308	   18a4	ISR_Demo.elf
+Finished building: default.size.stdout
+ 
+
+15:06:07 Build Finished. 0 errors, 0 warnings. (took 296ms)
+

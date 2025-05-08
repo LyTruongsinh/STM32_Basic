@@ -1,0 +1,2 @@
+../Mylib/Button.c:16:6:button_init	24	static
+../Mylib/Button.c:24:6:button_handle	24	static

@@ -1,0 +1,4 @@
+../MyLibs/Servo.c:11:10:map	24	static
+../MyLibs/Servo.c:15:9:servo_read	16	static
+../MyLibs/Servo.c:19:6:servo_write	32	static
+../MyLibs/Servo.c:39:6:servo_init	24	static

@@ -1,0 +1,20 @@
+/*
+ * Servo.h
+ *
+ *  Created on: May 1, 2025
+ *      Author: HUNG
+ */
+
+#ifndef SERVO_H_
+#define SERVO_H_
+#include "stm32f1xx_hal.h"
+typedef struct
+{
+	TIM_HandleTypeDef *htim;
+	uint16_t channel;
+	uint8_t angle;
+} Servo;
+void servo_init(Servo* servo, TIM_HandleTypeDef *htim,uint16_t channel,);
+void servo_write(Servo* servo, uint8_t angle);
+uint8_t servo_read(Servo* servo);
+#endif /* SERVO_H_ */

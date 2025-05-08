@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Control_Engine_By_PWM&apos; to &apos;Control_Servo_By_PWM&apos;" description="Rename resource &apos;Control_Engine_By_PWM&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Control_Engine_By_PWM" name="Control_Servo_By_PWM" stamp="1746082014011" updateReferences="true"/>&#x0A;<refactoring comment="Delete resource &apos;Control_Servo_By_PWM/MyLibs&apos;" deleteContents="false" description="Delete resource &apos;Control_Servo_By_PWM/MyLibs&apos;" element1="/Control_Servo_By_PWM/MyLibs" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1746086222236"/>
+</session>

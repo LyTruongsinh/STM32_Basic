@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="hasShownOverlayPopupBefore" value="true"/>
+	<item key="replaceBarOpen" value="true"/>
+	<list key="searchhistory">
+		<item value="__"/>
+		<item value="long"/>
+		<item value="HAL_TIM_PeriodElapsedCallback"/>
+		<item value="HAL_TIM_PeriodElapsedCallback "/>
+		<item value="TIM_HandleTypeDef"/>
+		<item value="TIM_FLAG_UPDATE"/>
+		<item value="HAL_ADC_PollForConversion()"/>
+		<item value="btn_last"/>
+		<item value="time_start_press"/>
+		<item value="is_press_timeout"/>
+		<item value="btn_current"/>
+		<item value="time_debouncing"/>
+		<item value="is_debouncing"/>
+		<item value="btn_filter"/>
+		<item value="HAL_Gettick"/>
+	</list>
+	<list key="replacehistory">
+		<item value="uint32_t"/>
+		<item value="ButtonX-&gt;btn_last"/>
+		<item value="ButtonX-&gt;time_start_press"/>
+		<item value="ButtonX-&gt;is_press_timeout"/>
+		<item value="ButtonX-&gt;btn_current"/>
+		<item value="ButtonX-&gt;time_debouncing"/>
+		<item value="ButtonX-&gt;is_debouncing"/>
+		<item value="ButtonX-&gt;btn_filter"/>
+	</list>
+</section>

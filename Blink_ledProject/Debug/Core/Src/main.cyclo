@@ -1,0 +1,13 @@
+../Core/Src/main.c:65:6:btn_pressing_callback	5
+../Core/Src/main.c:78:6:btn_release_callback	1
+../Core/Src/main.c:81:6:btn_press_short_callback	1
+../Core/Src/main.c:84:6:btn_press_timeout_callback	1
+../Core/Src/main.c:88:6:button_handle	9
+../Core/Src/main.c:124:6:led1Blink1Hz	2
+../Core/Src/main.c:131:6:led2Blink5Hz	2
+../Core/Src/main.c:138:6:lefOff	1
+../Core/Src/main.c:143:6:led_handle	5
+../Core/Src/main.c:174:5:main	1
+../Core/Src/main.c:220:6:SystemClock_Config	3
+../Core/Src/main.c:259:13:MX_GPIO_Init	1
+../Core/Src/main.c:299:6:Error_Handler	1

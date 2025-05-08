@@ -1,0 +1,39 @@
+22:11:00 **** Incremental Build of configuration Debug for project F103_GPS_TUT ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/NMEA.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/NMEA.d" -MT"Core/Src/NMEA.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/NMEA.o"
+../Core/Src/NMEA.c: In function 'decodeGGA':
+../Core/Src/NMEA.c:129:25: error: redefinition of 'num'
+  129 |                 int16_t num = (atoi(buffer));   // change the buffer to the number. It will only convert upto decimal
+      |                         ^~~
+../Core/Src/NMEA.c:111:17: note: previous definition of 'num' with type 'int16_t' {aka 'short int'}
+  111 |         int16_t num = (atoi(buffer));   // change the buffer to the number. It will only convert upto decimal
+      |                 ^~~
+../Core/Src/NMEA.c:130:21: error: redefinition of 'j'
+  130 |                 int j = 0;
+      |                     ^
+../Core/Src/NMEA.c:112:13: note: previous definition of 'j' with type 'int'
+  112 |         int j = 0;
+      |             ^
+../Core/Src/NMEA.c:133:21: error: redefinition of 'declen'
+  133 |                 int declen = (strlen(buffer))-j;  // calculate the number of digit after decimal
+      |                     ^~~~~~
+../Core/Src/NMEA.c:115:13: note: previous definition of 'declen' with type 'int'
+  115 |         int declen = (strlen(buffer))-j;  // calculate the number of digit after decimal
+      |             ^~~~~~
+../Core/Src/NMEA.c:134:21: error: redefinition of 'dec'
+  134 |                 int dec = atoi ((char *) buffer+j);  // conver the decimal part a a separate number
+      |                     ^~~
+../Core/Src/NMEA.c:116:13: note: previous definition of 'dec' with type 'int'
+  116 |         int dec = atoi ((char *) buffer+j);  // conver the decimal part a a separate number
+      |             ^~~
+../Core/Src/NMEA.c:135:23: error: redefinition of 'lat'
+  135 |                 float lat = (num/100.0) + (dec/pow(10, (declen+2)));  // 1234.56789 = 12.3456789
+      |                       ^~~
+../Core/Src/NMEA.c:117:15: note: previous definition of 'lat' with type 'float'
+  117 |         float lat = (num/100.0) + (dec/pow(10, (declen+2)));  // 1234.56789 = 12.3456789
+      |               ^~~
+make: *** [Core/Src/subdir.mk:43: Core/Src/NMEA.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+
+22:11:01 Build Failed. 6 errors, 0 warnings. (took 818ms)
+
